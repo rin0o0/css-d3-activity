@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    word-spacing: 1.4px;
+    font-family: 'Roboto', sans-serif;
+    background-color: dimgray;
+}
+  
+/*** BOX COLORS ***/
+.blue {
+    background-color: rgb(57, 57, 234);
+}
+
+.red {
+    background-color: rgb(248, 80, 80);
+}
+
+.yellow {
+    background-color: rgb(254, 254, 68);
+}
+
+.green {
+    background-color: green;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.lightblue {
+    background-color: lightskyblue;
+}
+
+
+.lightcyan {
+    background-color: lightcyan;
+}
+/*** BOX COLORS ***/
+
+
+section#css-position {
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 24rem;
+}
+
+.grid-container {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(4, 150px);
+    grid-gap: 1em;
+    border: 0.5rem solid beige;
+    flex-wrap: wrap;
+
+
+}
+
+.grid-item {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+
+.active {
+    
+}
+
+
+/* STICKY */
+header {
+
+}
+
+
+
+/*FLEXBOX*/
+
+.flex {
+    /* empty this */
+
+}
+
+
+.flex-item {
+    background-color: lightskyblue;
+    width: 12rem; /*150px*/
+    height: 3rem;
+    text-align: center;
+    border: 2px solid blue;
+}
+
+
+
+/** DEMO **/
+
