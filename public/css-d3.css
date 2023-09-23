@@ -69,9 +69,11 @@ section#css-position {
     width: 150px;
     height: 150px;
     display: flex;
+    /** number layout **/
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    /** number layout **/
     border-radius: 10px;
     font-weight: 700;
     font-size: 1.25rem;
