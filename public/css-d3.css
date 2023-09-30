@@ -24,7 +24,7 @@ body {
 
 .yellow {
     background-color: rgb(254, 254, 68);
-    border: 10px solid rgb(22, 22, 21);
+    border: 3px solid rgb(22, 22, 21);
 }
 
 .green {
@@ -247,6 +247,61 @@ section#grid-layout {
     grid-column: 3 / 4;
     grid-row: 3 /6;
    
+}
+
+
+section#grid-area { 
+    height: 100vh;
+    border-radius: 10px solid black;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.container-area{
+    width: 70%;
+    height: 50%;
+    border-radius: 10px solid black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas:
+    "header header header header header "
+    "blog main main main side"
+    "blog main main main side"
+    "blog main main main side"
+    "footer footer footer footer footer";
+    
+}
+
+.area-1 { 
+    background-color: rgba(51, 136, 161, 0.822);
+    grid-area: header;
+    border-radius: 10px;
+}
+
+.area-2 { 
+    background-color: rgba(119, 92, 192, 0.822);
+    grid-area: blog;
+    border-radius: 10px;
+}
+
+.area-3 { 
+    background-color: rgba(210, 140, 216, 0.822);
+    grid-area: main;
+    border-radius: 10px;
+}
+
+.area-4 { 
+    background-color: rgba(7, 67, 136, 0.822);
+    grid-area: side;
+    border-radius: 10px;
+}
+
+.area-5 { 
+    background-color: rgba(192, 92, 147, 0.822);
+    grid-area: footer;
+    border-radius: 10px;
 }
 
 
