@@ -190,6 +190,7 @@ section#grid-layout {
     margin: auto;
     grid-template-columns:  1tr 5tr 1tr 1tr;
     grid-template-rows: 1fr 1fr 1fr ;
+    
 }
 
 .item-1{
